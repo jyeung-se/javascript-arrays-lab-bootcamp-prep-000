@@ -34,6 +34,8 @@ var prependKitten = function(name) {
   return newKittens;
 }
 
-
+var removeLastKitten = function(name) {
+  var newKittens = 
+}
 
 
