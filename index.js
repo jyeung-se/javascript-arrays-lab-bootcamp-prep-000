@@ -28,7 +28,7 @@ var appendKitten = function(name) {
   return newKittens;
 }
 
-var preprendKittens = function(name) {
+var prependKittens = function(name) {
   var newKittens = [...kittens];
   newKittens.unshift(name);
   return newKittens;
