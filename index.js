@@ -35,7 +35,16 @@ var prependKitten = function(name) {
 }
 
 var removeLastKitten = function(name) {
-  var newKittens = 
+  var newKittens = [...kittens];
+  newKittens.pop(name);
+  return newKittens;
 }
+
+var removeFirstKitten = function(name) {
+  var newKittens = [...kittens];
+  newKittens.shift(name);
+  return newKittens;
+}
+
 
 
